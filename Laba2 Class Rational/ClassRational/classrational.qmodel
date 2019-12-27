@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qmt>
+ <project>
+  <uid>{aace0090-8041-4499-a1d9-2a255820a2a8}</uid>
+  <root-package>
+   <instance>
+    <MPackage>
+     <base-MObject>
+      <MObject>
+       <base-MElement>
+        <MElement>
+         <uid>{8f339a7c-2f16-4593-9ba0-e2fe3ebd239b}</uid>
+        </MElement>
+       </base-MElement>
+       <name>ClassRational</name>
+       <children>
+        <handles>
+         <handles>
+          <qlist>
+           <item>
+            <handle>
+             <uid>{fff0c6ef-c01b-416e-8a93-02f91fa9b918}</uid>
+             <target>
+              <instance type="MCanvasDiagram">
+               <MCanvasDiagram>
+                <base-MDiagram>
+                 <MDiagram>
+                  <base-MObject>
+                   <MObject>
+                    <base-MElement>
+                     <MElement>
+                      <uid>{fff0c6ef-c01b-416e-8a93-02f91fa9b918}</uid>
+                     </MElement>
+                    </base-MElement>
+                    <name>ClassRational</name>
+                   </MObject>
+                  </base-MObject>
+                  <elements>
+                   <qlist>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{25c14d59-f5a6-4646-9250-1e9c4e3496f3}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{49c58e67-935b-410f-8cc9-743d5f3a1174}</object>
+                         <name>Rational</name>
+                         <pos>x:250;y:265</pos>
+                         <rect>x:-130;y:-155;w:260;h:310</rect>
+                         <auto-sized>false</auto-sized>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                   </qlist>
+                  </elements>
+                  <last-modified>1572309019847</last-modified>
+                  <toolbarid>Classes</toolbarid>
+                 </MDiagram>
+                </base-MDiagram>
+               </MCanvasDiagram>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{49c58e67-935b-410f-8cc9-743d5f3a1174}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{49c58e67-935b-410f-8cc9-743d5f3a1174}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>Rational</name>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{379de087-aa1e-484f-8a54-6a917366c678}</uid>
+                    <type>1</type>
+                    <declaration>- a,b: int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c8f89a90-f772-4344-a4a2-3f7ca82bffba}</uid>
+                    <type>2</type>
+                    <declaration>+ Rational()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{33d9cf10-e374-478c-bf81-26841acd9f94}</uid>
+                    <type>2</type>
+                    <declaration>+ Rational(int, int)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b2b53622-b511-43a2-ad2b-c7fde0cefcfe}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ Rational operator +(const Rational&amp;)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{984c6e62-bf3d-49f4-9042-54cde735328d}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ Rational operator -(const Rational&amp;)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6fc57dff-dfc6-4676-83ac-0f5ed114150f}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ Rational operator *(const Rational&amp;)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{452bd131-0e52-49a0-ba98-6fe5acf896c4}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ Rational operator /(const Rational&amp;)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ad639d88-0fc0-4250-a772-8ff9cac741b1}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ std::string getStr_a()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1f35bd6d-501b-4345-91cd-ef49f76ff394}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ std::string getStr_b()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d7c1b8c7-df53-400c-8d44-6f1a344b9fac}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ std::string toStr()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{14a9c59a-b58a-4b96-b2dc-e2464edcef5f}</uid>
+                    <type>2</type>
+                    <declaration>+ void set_a(int)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a712a919-66a2-400d-a3b2-906d97af981c}</uid>
+                    <type>2</type>
+                    <declaration>+ void set_b(int)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{63b7c546-9ce4-4dd7-9a03-b1a3a07b07b7}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ int get_a()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{272f5bb9-e187-4cbf-bec7-7756aa8af94f}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ int get_b()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{dce4915b-d6f7-4f07-afdc-1021c0ee067e}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>+ float toFlt()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{06ff866a-9f79-4b90-acaf-fa7da19d0d8c}</uid>
+                    <type>2</type>
+                    <declaration>+ bool operator equally (const Rational&amp;)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{288c3a25-819a-44fa-a415-4fdc6460568e}</uid>
+                    <type>2</type>
+                    <declaration>+ bool operator &gt;  (const Rational&amp;)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{131c140d-ebd0-422a-b57f-34071502cf3f}</uid>
+                    <type>2</type>
+                    <declaration>+ bool operator &lt;  (const Rational&amp;)</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+          </qlist>
+         </handles>
+        </handles>
+       </children>
+      </MObject>
+     </base-MObject>
+    </MPackage>
+   </instance>
+  </root-package>
+ </project>
+</qmt>
